@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <style>
+        .p5
+        {
+            padding: 5px;
+            height: 50px;
+        }
+        .navahover:hover
+        {
+            border: 1px solid white;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container p5">
+                <a href="home.html" class="navbar-brand navahover">Grocery Kit</a>
+                <div class="collapse navbar-collapse" id="myNavBar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="home.html" class="nav-link text-light navahover">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="shop.html" class="nav-link text-light navahover">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="customerservice.html" class="nav-link text-light navahover">Customer Service</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="cart.html" class="nav-link text-light navahover">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="login.html" class="nav-link text-light navahover">Log In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="register.html" class="nav-link text-light navahover">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="card m-3 p-2">
+            <div class="row">
+                <div class="col-4 px-5">
+                    <b>Products</b>
+                </div>
+                <div class="col-4">
+                    <b>Description</b>
+                </div>
+                <div class="col-2">
+                    <b>Quantity</b>
+                </div>
+                <div class="col-2">
+                    <b>Price</b>
+                </div>
+            </div>
+        </div>
+        <div class="card m-3">
+            <div class="row">
+                <div class="col-4">
+                    <img style="height: 250px; width: 250;" class="p-1" src="http://news.vellorecity.com/wp-content/uploads/2016/02/soap.png" alt="">
+                </div>
+                <div class="col-4 p-1">
+                    <p>Farm Fresh.</p>
+                    <p>100% Certifed Organic.</p>
+                    <p>This is a Vegetarian product.</p>
+                    <p>Good source of Vitamin A,E,K, Potassium and Lycopene.</p>
+                    <p>Store in a cool, dry place away from sunlight.</p>
+                </div>
+                <div class="col-2">
+                    <form action="">
+                        <input type="number" class="form-control mt-3" min="0" value="1">
+                    </form>
+                </div>
+                <div class="col-1 mt-4">
+                    <b>Rs.499</b>
+                </div>
+                <div class="col-1 mt-4 ml-5">
+                    <button class="btn btn-primary btn-sm">
+                        <i class="fas fa-trash"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                            <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"/>
+                          </svg></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="card m-3">
+            <div class="row">
+                <div class="col-4">
+                    <img style="height: 250px; width: 250;" class="p-1" src="http://news.vellorecity.com/wp-content/uploads/2016/02/soap.png" alt="">
+                </div>
+                <div class="col-4 p-1">
+                    <p>Farm Fresh.</p>
+                    <p>100% Certifed Organic.</p>
+                    <p>This is a Vegetarian product.</p>
+                    <p>Good source of Vitamin A,E,K, Potassium and Lycopene.</p>
+                    <p>Store in a cool, dry place away from sunlight.</p>
+                </div>
+                <div class="col-2">
+                    <form action="">
+                        <input type="number" class="form-control mt-3" min="0" value="1">
+                    </form>
+                </div>
+                <div class="col-1 mt-4">
+                    <b>Rs.1499</b>
+                </div>
+                <div class="col-1 mt-4 ml-5">
+                    <button class="btn btn-primary btn-sm">
+                        <i class="fas fa-trash"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                            <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"/>
+                          </svg></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="card m-3 p-2">
+            <div class="row">
+                <div class="col-7"></div>
+                <b class="col-2 mt-2">Total Price</b>
+                <div class="col-1 mt-2">
+                    <b>Rs.1998</b>
+                </div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-primary">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center text-lg-start text-white" style="background-color: #232f3e">
+        <div class="text-center p-3"style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2020 made by Grocery Kit
+        </div>
+      </footer>
+</body>
+</html>

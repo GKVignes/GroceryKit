@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+    <style>
+        .p5
+        {
+            padding: 3px;
+            height: 30px;
+        }
+        .navahover:hover
+        {
+            border: 1px solid white;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid p5">
+                <a href="home.html" class="navbar-brand navahover">Grocery Kit</a>
+                <div class="collapse navbar-collapse" id="myNavBar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="home.html" class="nav-link text-light navahover">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="shop.html" class="nav-link text-light navahover">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="customerservice.html" class="nav-link text-light navahover">Customer Service</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="cart.html" class="nav-link text-light navahover">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="login.html" class="nav-link text-light navahover">Log In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="register.html" class="nav-link text-light navahover">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container py-4 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div style="border-radius: 1rem; border-style: solid; border-width: 2px;">
+                    <div class="card-body p-5 text-center">
+                        <h3>Address Details</h3>
+                        <form action="" class="form-outline mt-3">
+                            <input type="text" name="" id="" class="form-control mt-3" placeholder="Your Name">
+                            <input type="text" name="" id="" class="form-control mt-3" placeholder="Mobile Number">
+                            <input type="text" name="" id="" class="form-control mt-3" placeholder="Address">
+                            <input type="text" name="" id="" class="form-control mt-3" placeholder="Street and Aread">
+                            <input type="text" name="" id="" class="form-control mt-3" placeholder="District">
+                            <input type="text" name="" id="" class="form-control mt-3" placeholder="Pincode">
+                        </form>
+                            <button type="button" class="btn btn-primary mt-3 col-12">Cash on Delivery</button>
+                            <button type="button" class="btn btn-warning mt-3 col-12">Paying with Bank</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center text-lg-start text-white" style="background-color: #232f3e">
+        <div class="text-center p-3"style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2020 made by Grocery Kit
+        </div>
+      </footer>
+</body>
+</html>
